@@ -11,10 +11,9 @@ function Hero() {
             readymade gluten
           </h1>
           <p className="mb-8 leading-relaxed">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+          Fronzor is a premium online shopping destination offering a curated collection of fashion trends, electronics, and home essentials. 
+          With a user-friendly interface and secure transactions, it offers a seamless shopping experience. Fronzor combines innovation and 
+          customer satisfaction, transforming the way you shop.
           </p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
@@ -29,7 +28,7 @@ function Hero() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="\public\ecommerce.jpeg"
+            src="https://blog.shift4shop.com/hubfs/iStock-1051616786.jpg"
           />
         </div>
       </div>

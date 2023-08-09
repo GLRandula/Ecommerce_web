@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 //import { useParams } from 'react-router-dom';
 import { useNavigate, useParams } from "react-router-dom";
 
-function calculateDiscountedPrice(originalPrice, discountPercentage) {
-  return originalPrice - originalPrice * (discountPercentage / 100);
-}
+// function calculateDiscountedPrice(originalPrice, discountPercentage) {
+//   return originalPrice - originalPrice * (discountPercentage / 100);
+// }
 
 function Product() {
 const navigate = useNavigate()
