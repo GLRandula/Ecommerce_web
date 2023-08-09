@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const navigation = [
   {
-    name : 'Home',
+    name : 'HOME',
     path : '/'
   },
   {
-    name : 'Products',
+    name : 'PRODUCTS',
     path : '/products'
   }
 ]

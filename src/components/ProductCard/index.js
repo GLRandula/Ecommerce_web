@@ -28,7 +28,7 @@ const ProductCard = ({products = []}) => {
                       <h2 className="text-gray-900 title-font text-lg font-medium">
                         {title}
                       </h2>
-                      <p className="mt-1">${price}</p>
+                      <p className="mt-2 text-xl">${price}</p>
                     </div>
                   </Link>
                 )

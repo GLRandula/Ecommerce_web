@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../../components/ProductCard';
 import Categories from '../../components/Categories';
+import Footer from '../../components/Footer';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -64,8 +65,8 @@ const Products = () => {
                   <button
                     key={pageNumber}
                     onClick={() => setCurrentPage(pageNumber)}
-                    className={`px-3 py-2 mx-1 mb-6 bg-yellow-400 hover:bg-yellow-600 text-black rounded-lg visited:bg-gray-950 visited:text-white 
-                    ${currentPage === pageNumber ?'bg-blue-700' : ''}`}
+                    className={`px-3 py-2 mx-1 mb-6 bg-yellow-400 hover:bg-yellow-500 text-black rounded-lg visited:bg-gray-950 visited:text-white 
+                    ${currentPage === pageNumber ?'bg-yellow-700' : ''}`}
                   >
                     {pageNumber}
                   </button>
@@ -75,7 +76,9 @@ const Products = () => {
           ) : (
             <div>Loading.....</div>
           )}
+          <Footer />
         </div>
+        
     );
 };
 
