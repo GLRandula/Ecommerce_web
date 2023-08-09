@@ -16,7 +16,7 @@ const FeatureCard = ({cards = [1, 2, 3]}) => {
             cards?.map ((card) => {
               return (
               <Link to={`/categories/${card}`} className="p-4 md:w-1/4">
-                <div className="flex rounded-lg h-20 bg-gray-100 p-6 flex-col">
+                <div className="flex rounded-lg h-20 bg-white p-6 flex-col">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-yellow-500 text-white flex-shrink-0">
                       <svg

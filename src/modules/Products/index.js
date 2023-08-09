@@ -36,7 +36,7 @@ const Products = () => {
       setCurrentPage(1); 
   };
    return (
-        <div>
+        <div className='bg-gray-200'>
           <Categories />
           <div className="flex flex-col text-center w-full mt-20">
             <h2 className="text-xs text-orange-500 tracking-widest font-medium title-font mb-1">PRODUCTS</h2>

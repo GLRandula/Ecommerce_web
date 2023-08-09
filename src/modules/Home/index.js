@@ -21,7 +21,7 @@ function Home() {
   }, [])
 
   return (
-    <div>
+    <div className='bg-gray-200'>
       <Hero />
       <Categories />
       <h2 className='text-5xl font-bold text-center mt-20'>Top Products</h2>
