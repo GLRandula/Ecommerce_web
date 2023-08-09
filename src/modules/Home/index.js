@@ -31,6 +31,7 @@ function Home() {
         :
         <div>Loading....</div>
       }
+      <Products />
       
       {/* <StatCard /> */}
       <Footer />
