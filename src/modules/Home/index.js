@@ -24,7 +24,7 @@ function Home() {
     <div>
       <Hero />
       <Categories />
-      <h2 className='text-5xl font-bold text-center mt-20'>All Products</h2>
+      <h2 className='text-5xl font-bold text-center mt-20'>Top Products</h2>
       {
         products.length > 0 ?
         <ProductCard products = {products} />
