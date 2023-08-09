@@ -13,7 +13,7 @@ const ProductCard = ({products = []}) => {
                 console.log(product, 'product')
                 const {id, title, price, description, category, thumbnail} = product;
                 return (
-                  <Link to={`http://localhost:3000/products/${id}`} className="lg:w-1/4 mx-10 my-5 bg-white px-5 py-5 w-full border-spacing-4 border border-opacity-50 rounded-lg shadow-md border-secondary">
+                  <Link to={`http://localhost:3000/products/${id}`} className="lg:w-1/4 mx-10 my-5 bg-white hover:bg-yellow-50 px-5 py-5 w-full border-spacing-4 border border-opacity-50 rounded-lg shadow-md border-secondary">
                     <a className="block relative h-48 rounded overflow-hidden">
                       <img
                         alt={title}
